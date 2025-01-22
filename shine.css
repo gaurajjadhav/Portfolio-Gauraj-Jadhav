@@ -1,0 +1,145 @@
+body {
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  /* Project Card */
+  .project-card {
+    margin-top: 8rem;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .project-image-container {
+    flex-shrink: 0;
+  }
+  
+  .project-image-container img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project-info {
+    font-size: 15px;
+    color: #000000;
+    flex-grow: 1;
+  }
+  
+  .project-info h2 {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .project-info p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .project-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-details li {
+    margin-bottom: 5px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0078D4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #005A9E;
+    transform: scale(1.05);
+  }
+  
+  .btn-primary {
+    background-color: #0078D4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005A9E;
+  }
+  
+  .project-card li {
+    text-decoration: none;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Mobile Devices */
+  @media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+  
+    .project-image-container img {
+        width: 100%; /* Make the image fill the container on small screens */
+        height: auto;
+    }
+  
+    .project-info {
+        font-size: 14px;
+    }
+  
+    .project-info h2 {
+        font-size: 14px;
+    }
+  
+    .project-info p {
+        font-size: 14px;
+    }
+  
+    .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+  }
+  
+  /* Tablet Devices */
+  @media (max-width: 1024px) {
+    
+    .project-card {
+        flex-direction: column;
+        margin-left: 2.6rem;
+        margin-top: 6.8rem;
+    }
+  
+    .project-image-container img {
+        width: 150px; /* Adjust for tablet-sized screens */
+        height: auto;
+    }
+  
+    .project-info {
+        font-size: 14px;
+    }
+  
+    .btn {
+      margin-top: 1rem;
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+  }
+  
