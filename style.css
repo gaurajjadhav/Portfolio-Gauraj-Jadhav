@@ -2,9 +2,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
-/* variables */
+
 :root {
-  /* Colors */
+
   --primary-color: #ffcd42;
   --secondary-color: #ffd35c;
   --bg-primary: #ffffff;
@@ -121,7 +121,8 @@ body {
   left: 0;
   right: 0;
   z-index: 20;
-  background: linear-gradient(to right, #f9f9f9, #9f9797);
+ /* background: linear-gradient(to right, #f9f9f9, #9f9797); */
+  background: linear-gradient(to right, #9f9797, #f9f9f9);
 }
 
 .navbar .container {
