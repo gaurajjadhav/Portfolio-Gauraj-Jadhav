@@ -137,7 +137,9 @@ body {
 .navbar .nav-menu {
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #f9f9f9, #9f9797);
+  /*background: linear-gradient(to right, #f9f9f9, #9f9797);*/
+  background: transparent;
+
 }
 
 .navbar .nav-linkresume {
